@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Temple</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row bg-white rowHeight mx-4 my-4">
+      <div class="col-3 bg-white colHeight"></div>
+      <div class="col-6 bg-danger colHeight text-center"> </div>
+      <div class="col-3 bg-white colHeight"></div>
+
+    </div>
+
+    <div class="row bg-white RowHeight">
+      <div class="col-2 bg-white colHeight"></div>
+      <div class="col-8 bg-info colHeight text-center">
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-6">
+            <label for="validationCustom01" class="form-label">User Name</label>
+            <input type="text" class="form-control" id="validationCustom01" value="batuhan.kansu" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="validationCustomUsername" class="form-label">Mail</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input type="text" class="form-control" id="validationCustomUsername" value="univera.com.tr"
+                aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Password</label>
+            <input type="password" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">City</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>İzmir</option>
+
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">State</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>Buca</option>
+              <option>Bornova</option>
+              <option>Karşıyaka</option>
+              <option>Gaziemir</option>
+
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Remember Me
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Login</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-2 bg-white colHeight"></div>
+
+    </div>
+
+    <div class="row bg-white rowHeight mx-4 my-4   ">
+      <div class="col-3 bg-white colHeight"></div>
+      <div class="col-6 bg-danger colHeight"></div>
+      <div class="col-3 bg-white colHeight"></div>
+    </div>
+    <script src="bootstrap.js"></script>
+</body>
+
+</html>
